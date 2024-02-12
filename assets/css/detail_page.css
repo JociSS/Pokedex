@@ -1,0 +1,98 @@
+button {
+    background-color: #6c79db;
+    padding: .5rem 1rem;
+    margin: 1rem 0;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+}
+
+
+.detalhePokemons{
+    padding: 0;
+    margin: 0;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha os itens verticalmente */
+    justify-content: space-between; /* Distribui os itens igualmente ao longo do eixo principal */
+    margin: .25rem;
+    padding: 1rem;
+}
+
+.detalhePokemons .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /*Centraliza os itens de forma vertical  */
+    width: 100%;
+}
+
+.detalhePokemons .number {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.detalhePokemons .name {
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: .5rem;
+    font-size: 2rem;
+}
+
+.detalhePokemons .pokemonImg img {
+    max-width: 100%;
+    height: 150px;
+}
+
+.detalhePokemons .leftHeader {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.detalhePokemons .types{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    margin: 0;
+}
+
+.detalhePokemons .types :first-child{
+    margin-right: 0.5rem;
+}
+
+
+.detalhePokemons .type{
+    display: block; /* Define como bloco para que cada tipo apareça em uma linha separada */
+    text-align: center;
+    color: #fff;
+    padding: .25rem .5rem;
+    border-radius: 1rem;
+    font-size: .705rem;
+    filter: brightness(1.1);
+}
+
+
+/* Essa parte é das definição */
+
+.table-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.definicaoPokemon {
+    list-style: none;
+    padding: 0;
+    max-width: 600px; /* Define uma largura máxima para a tabela */
+}
+
+.definicaoPokemon li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.definicaoPokemon li strong {
+    margin-left: 120px; /* Adiciona espaço entre as palavras em negrito e as informações */
+}
